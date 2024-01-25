@@ -15,8 +15,8 @@ int main() {
 	int ketqua3 = (a == c);
 	int ketqua4 = (a != c);
 	
-	int ketqua5 = (a < b && b > c);
-	int ketqua6 = (a < b || b < c);
+	int ketqua5 = (a < b && b > c); \\toan tu va (ca hai cai phai dung)
+	int ketqua6 = (a < b || b < c); \\ toan tu or (mot trong hai dung thi dung)
 	int ketqua7 = !(a < b);
 	
 	printf("Tong: &d\n", tong);
